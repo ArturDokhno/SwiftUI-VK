@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755660B627A80F7E00C1747F /* ViewModifierContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755660B527A80F7E00C1747F /* ViewModifierContent.swift */; };
+		7558A83F27A6DAFB0005A097 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558A83E27A6DAFB0005A097 /* TableView.swift */; };
+		7558A84127A803150005A097 /* ViewBuilderContetn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558A84027A803150005A097 /* ViewBuilderContetn.swift */; };
 		75AD0A6A279C51800035ECED /* SwiftUI_VKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */; };
 		75AD0A6C279C51800035ECED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AD0A6B279C51800035ECED /* ContentView.swift */; };
 		75AD0A6E279C51830035ECED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AD0A6D279C51830035ECED /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		755660B527A80F7E00C1747F /* ViewModifierContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierContent.swift; sourceTree = "<group>"; };
+		7558A83E27A6DAFB0005A097 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		7558A84027A803150005A097 /* ViewBuilderContetn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderContetn.swift; sourceTree = "<group>"; };
 		75AD0A66279C51800035ECED /* SwiftUI-VK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-VK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_VKApp.swift; sourceTree = "<group>"; };
 		75AD0A6B279C51800035ECED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */,
 				75AD0A6B279C51800035ECED /* ContentView.swift */,
+				7558A83E27A6DAFB0005A097 /* TableView.swift */,
+				7558A84027A803150005A097 /* ViewBuilderContetn.swift */,
+				755660B527A80F7E00C1747F /* ViewModifierContent.swift */,
 				75AD0A6D279C51830035ECED /* Assets.xcassets */,
 				75AD0A6F279C51830035ECED /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75AD0A6C279C51800035ECED /* ContentView.swift in Sources */,
+				7558A83F27A6DAFB0005A097 /* TableView.swift in Sources */,
+				7558A84127A803150005A097 /* ViewBuilderContetn.swift in Sources */,
+				755660B627A80F7E00C1747F /* ViewModifierContent.swift in Sources */,
 				75AD0A6A279C51800035ECED /* SwiftUI_VKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
