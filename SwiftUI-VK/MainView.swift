@@ -16,7 +16,7 @@ struct MainView: View {
             HStack {
                 LoginView(showMainScreen: $showMainScreen)
                 NavigationLink(isActive: $showMainScreen) {
-                    TableView()
+                    TabBarView()
                 } label: {
                     EmptyView()
                 }

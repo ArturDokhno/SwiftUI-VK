@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		755660B627A80F7E00C1747F /* ViewModifierContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755660B527A80F7E00C1747F /* ViewModifierContent.swift */; };
-		7558A83F27A6DAFB0005A097 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558A83E27A6DAFB0005A097 /* TableView.swift */; };
+		7558A83F27A6DAFB0005A097 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558A83E27A6DAFB0005A097 /* FriendsView.swift */; };
 		7558A84127A803150005A097 /* ViewBuilderContetn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558A84027A803150005A097 /* ViewBuilderContetn.swift */; };
 		75AD0A6A279C51800035ECED /* SwiftUI_VKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */; };
 		75AD0A6C279C51800035ECED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AD0A6B279C51800035ECED /* LoginView.swift */; };
 		75AD0A6E279C51830035ECED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AD0A6D279C51830035ECED /* Assets.xcassets */; };
 		75AD0A71279C51830035ECED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AD0A70279C51830035ECED /* Preview Assets.xcassets */; };
 		75FBC14D27ABE9EE00B4049D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FBC14C27ABE9EE00B4049D /* MainView.swift */; };
+		75FBC14F27ABEAE600B4049D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FBC14E27ABEAE600B4049D /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		755660B527A80F7E00C1747F /* ViewModifierContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierContent.swift; sourceTree = "<group>"; };
-		7558A83E27A6DAFB0005A097 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		7558A83E27A6DAFB0005A097 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		7558A84027A803150005A097 /* ViewBuilderContetn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderContetn.swift; sourceTree = "<group>"; };
 		75AD0A66279C51800035ECED /* SwiftUI-VK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-VK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_VKApp.swift; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		75AD0A6D279C51830035ECED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AD0A70279C51830035ECED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75FBC14C27ABE9EE00B4049D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		75FBC14E27ABEAE600B4049D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */,
 				75FBC14C27ABE9EE00B4049D /* MainView.swift */,
 				75AD0A6B279C51800035ECED /* LoginView.swift */,
-				7558A83E27A6DAFB0005A097 /* TableView.swift */,
+				75FBC14E27ABEAE600B4049D /* TabBarView.swift */,
+				7558A83E27A6DAFB0005A097 /* FriendsView.swift */,
 				7558A84027A803150005A097 /* ViewBuilderContetn.swift */,
 				755660B527A80F7E00C1747F /* ViewModifierContent.swift */,
 				75AD0A6D279C51830035ECED /* Assets.xcassets */,
@@ -151,7 +154,8 @@
 			files = (
 				75AD0A6C279C51800035ECED /* LoginView.swift in Sources */,
 				75FBC14D27ABE9EE00B4049D /* MainView.swift in Sources */,
-				7558A83F27A6DAFB0005A097 /* TableView.swift in Sources */,
+				75FBC14F27ABEAE600B4049D /* TabBarView.swift in Sources */,
+				7558A83F27A6DAFB0005A097 /* FriendsView.swift in Sources */,
 				7558A84127A803150005A097 /* ViewBuilderContetn.swift in Sources */,
 				755660B627A80F7E00C1747F /* ViewModifierContent.swift in Sources */,
 				75AD0A6A279C51800035ECED /* SwiftUI_VKApp.swift in Sources */,
