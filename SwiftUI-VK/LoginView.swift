@@ -11,13 +11,12 @@ let lightGreyColor = Color(red: 239.0/255.0,
                            green: 243.0/255.0,
                            blue: 244.0/255.0)
 
-let storedUsetname = "Artur"
-let storedPassword = "1234"
-
 struct LoginView: View {
     
     @State var username: String = ""
     @State var password: String = ""
+    
+    @Binding var showMainScreen: Bool
     
     @State var authenticationDidfail: Bool = false
     @State var authenticationDidSucceed: Bool = false
@@ -37,9 +36,10 @@ struct LoginView: View {
                 }
                 
                 Button {
-                    if self.username == storedUsetname && self.password == storedPassword {
+                    if self.username == "Artur" && self.password == "1234" {
                         self.authenticationDidSucceed = true
                         self.authenticationDidfail = false
+                        self.showMainScreen = true
                     } else {
                         self.authenticationDidfail = true
                         self.authenticationDidSucceed = false
@@ -57,12 +57,6 @@ struct LoginView: View {
                     .animation(Animation.default)
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
     }
 }
 
@@ -119,5 +113,11 @@ struct PasswordSecureField: View {
             .background(lightGreyColor)
             .cornerRadius(10.0)
             .padding(.bottom, 20)
+    }
+}
+
+struct LoginView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView(showMainScreen: .constant(false))
     }
 }
