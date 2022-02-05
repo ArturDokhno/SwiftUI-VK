@@ -1,5 +1,5 @@
 //
-//  TableView.swift
+//  FriendsView.swift
 //  SwiftUI-VK
 //
 //  Created by Артур Дохно on 30.01.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TableView: View {
+struct FriendsView: View {
     var body: some View {
         List(0..<10) { item in
             HStack {
@@ -24,9 +24,9 @@ struct TableView: View {
     }
 }
 
-struct TableView_Previews: PreviewProvider {
+struct FriendsView_Previews: PreviewProvider {
     static var previews: some View {
-        TableView()
+        FriendsView()
     }
 }
 
