@@ -59,6 +59,16 @@
 			path = FriendsList;
 			sourceTree = "<group>";
 		};
+		756FF7F327B13DC400A43E71 /* MainViev */ = {
+			isa = PBXGroup;
+			children = (
+				75FBC14C27ABE9EE00B4049D /* MainView.swift */,
+				75AD0A6B279C51800035ECED /* LoginView.swift */,
+				75FBC14E27ABEAE600B4049D /* TabBarView.swift */,
+			);
+			path = MainViev;
+			sourceTree = "<group>";
+		};
 		75AD0A5D279C51800035ECED = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +90,7 @@
 			children = (
 				756FF7EF27B1391500A43E71 /* Draft */,
 				75AD0A69279C51800035ECED /* SwiftUI_VKApp.swift */,
-				75FBC14C27ABE9EE00B4049D /* MainView.swift */,
-				75AD0A6B279C51800035ECED /* LoginView.swift */,
-				75FBC14E27ABEAE600B4049D /* TabBarView.swift */,
+				756FF7F327B13DC400A43E71 /* MainViev */,
 				756FF7F227B13CBB00A43E71 /* FriendsList */,
 				75AD0A6D279C51830035ECED /* Assets.xcassets */,
 				75AD0A6F279C51830035ECED /* Preview Content */,
