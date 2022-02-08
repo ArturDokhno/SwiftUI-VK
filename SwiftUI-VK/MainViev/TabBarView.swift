@@ -13,6 +13,7 @@ struct TabBarView: View {
     
     var body: some View {
         TabView(selection: $selection) {
+            
             NavigationLink(destination: {
                 FriendsView()
             }, label: {
