@@ -23,12 +23,15 @@ struct FriendsView: View {
     ]
     
     var body: some View {
+        NavigationView {
             List(friends) { friend in
                 NavigationLink(destination: FriendPhotoView()) {
                     FriendCell(friend: friend)
                 }
             }
             .listStyle(.plain)
+            .navigationBarTitle("Friends")
+        }
     }
 }
 
