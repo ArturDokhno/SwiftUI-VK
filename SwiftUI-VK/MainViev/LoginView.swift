@@ -86,7 +86,7 @@ struct LoginButton: View {
     
     var body: some View {
         Button {
-            if username == "Artur" && password == "1234" {
+            if username == "A" && password == "a" {
                 showMainScreen = true
             } else {
                 showAlert = true
