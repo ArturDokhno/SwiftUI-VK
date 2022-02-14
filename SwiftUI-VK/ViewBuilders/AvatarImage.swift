@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AvatarViewBuilders: View {
+    @State private var isScaled = false
     var content: Image
     
     init(@ViewBuilder content: () -> Image) {
@@ -23,5 +24,11 @@ struct AvatarViewBuilders: View {
                                    shadowRadius: 4,
                                    shadowOpacity: 0.7))
             .padding()
+            .scaleEffect(isScaled ? 0.75 : 1)
+            .onTapGesture {
+                withAnimation(.easeInOut(duration: 1.0)) {
+                    self.isScaled.toggle()
+                }
+            }
     }
 }
