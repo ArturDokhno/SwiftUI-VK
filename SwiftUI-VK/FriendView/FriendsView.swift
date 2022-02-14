@@ -31,6 +31,7 @@ struct FriendsView: View {
             }
             .listStyle(.plain)
             .navigationBarTitle("Friends")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

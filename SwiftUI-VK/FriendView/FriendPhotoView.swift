@@ -34,6 +34,7 @@ struct Grid: View {
             }
         }
         .navigationBarTitle("Photo gallery")
+        .navigationBarTitleDisplayMode(.inline)
         .padding()
     }
 }

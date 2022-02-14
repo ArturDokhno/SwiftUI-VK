@@ -12,11 +12,9 @@ struct MainView: View {
     @State var showMainScreen: Bool = false
     
     var body: some View {
-        //        NavigationView {
         ZStack {
             LoginView(showMainScreen: $showMainScreen)
             if showMainScreen {
-                //                NavigationLink(isActive: $showMainScreen) {
                 TabView {
                     
                     NewsView()
@@ -36,11 +34,6 @@ struct MainView: View {
                             Image(systemName: "person.3")
                             Text("Communities")
                         }
-                    
-                    //                    }
-                    //                    .navigationBarBackButtonHidden(true)
-                    //                } label: {
-                    //                    EmptyView()
                 }
             }
         }
