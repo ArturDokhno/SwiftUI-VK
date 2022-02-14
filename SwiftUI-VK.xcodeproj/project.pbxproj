@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750BD7BD27BA997500666928 /* TabBarCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BD7BC27BA997500666928 /* TabBarCustom.swift */; };
+		750BD7BF27BA9D7900666928 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BD7BE27BA9D7900666928 /* Content.swift */; };
+		750BD7C127BA9D8400666928 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BD7C027BA9D8400666928 /* Home.swift */; };
 		7549B14227B299D900D1C11B /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7549B14127B299D900D1C11B /* Friends.swift */; };
 		7549B14627B29AF300D1C11B /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7549B14527B29AF300D1C11B /* FriendCell.swift */; };
 		7549B14827B2A04E00D1C11B /* FriendPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7549B14727B2A04E00D1C11B /* FriendPhotoView.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750BD7BC27BA997500666928 /* TabBarCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustom.swift; sourceTree = "<group>"; };
+		750BD7BE27BA9D7900666928 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		750BD7C027BA9D8400666928 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7549B14127B299D900D1C11B /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		7549B14527B29AF300D1C11B /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 		7549B14727B2A04E00D1C11B /* FriendPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotoView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		750BD7B727BA98BA00666928 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				750BD7BE27BA9D7900666928 /* Content.swift */,
+				750BD7C027BA9D8400666928 /* Home.swift */,
+				750BD7BC27BA997500666928 /* TabBarCustom.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 		7549C66827B255DA004D2F8F /* GroupView */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +161,7 @@
 				7549C66827B255DA004D2F8F /* GroupView */,
 				756FF7F227B13CBB00A43E71 /* FriendView */,
 				7549C67A27B267D1004D2F8F /* NewsView */,
+				750BD7B727BA98BA00666928 /* CustomTabBar */,
 				75AD0A6D279C51830035ECED /* Assets.xcassets */,
 				75AD0A6F279C51830035ECED /* Preview Content */,
 			);
@@ -232,10 +249,13 @@
 				75AD0A6C279C51800035ECED /* LoginView.swift in Sources */,
 				75FBC14D27ABE9EE00B4049D /* MainView.swift in Sources */,
 				7549C67327B26383004D2F8F /* GroupCell.swift in Sources */,
+				750BD7BF27BA9D7900666928 /* Content.swift in Sources */,
 				7549B14627B29AF300D1C11B /* FriendCell.swift in Sources */,
 				7549C67C27B267E4004D2F8F /* NewsView.swift in Sources */,
+				750BD7C127BA9D8400666928 /* Home.swift in Sources */,
 				7549C66A27B25600004D2F8F /* GroupView.swift in Sources */,
 				7549C66D27B25FF0004D2F8F /* Groups.swift in Sources */,
+				750BD7BD27BA997500666928 /* TabBarCustom.swift in Sources */,
 				756FF7F527B13EC600A43E71 /* VKLoginWebView.swift in Sources */,
 				7549C67927B26524004D2F8F /* CircleShadow.swift in Sources */,
 				7549C67627B26425004D2F8F /* AvatarImage.swift in Sources */,
